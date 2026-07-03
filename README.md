@@ -334,6 +334,7 @@ excel-retail-commercial-dashboard
 │
 ├── Dashboard.xlsx
 └── README.md
+└── data.csv
 ```
 
 ---
