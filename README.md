@@ -182,6 +182,7 @@ This indicates that the current pricing framework is generally consistent across
 **Recommendation**
 
 Maintain the existing regional pricing strategy while prioritising the review of low-margin products and discount policies. Improving transaction-level margin performance is likely to deliver greater profitability gains than implementing broad regional pricing changes.
+
 ---
 
 # Technical Implementation
