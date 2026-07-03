@@ -1,236 +1,85 @@
-# Retail Commercial Performance Dashboard
+# Business Insights & Recommendations
 
-## Executive Summary
+Based on the dashboard analysis, several key commercial insights were identified.
 
-This project presents an interactive executive dashboard developed in Microsoft Excel to support commercial performance monitoring for a retail grocery business.
+## 1. Regional Performance
 
-The dashboard consolidates sales, profitability, discount performance, category contribution and regional performance into a single reporting interface. By integrating dynamic KPI monitoring with interactive filtering, the dashboard enables business users to quickly identify performance trends, evaluate pricing effectiveness and detect potential profitability risks.
+The West region consistently generated the highest sales and profit across the selected period, while the South region delivered comparatively weaker commercial performance.
 
-The solution is designed to replicate the type of operational reporting commonly used by commercial managers and business analysts in retail organisations.
+**Recommendation**
 
----
-
-# Business Objectives
-
-The dashboard was developed to answer the following business questions:
-
-- How is the business performing in terms of revenue and profitability?
-- Which product categories contribute the most sales and profit?
-- Which regions are driving commercial performance?
-- How effective are current discount strategies?
-- Which products generate the majority of business revenue?
-- How many transactions fail to achieve the expected profit margin?
-- How does business performance change across different years and regions?
+- Investigate the business practices contributing to the West region's success.
+- Replicate successful pricing and promotional strategies in lower-performing regions.
+- Allocate additional marketing resources to regions with lower profitability.
 
 ---
 
-# Executive Dashboard
+## 2. Product Category Performance
 
-The dashboard provides management with a high-level commercial overview through eight executive KPIs:
+Eggs, Meat & Fish and Snacks recorded the strongest contribution to overall sales and profit, whereas several categories generated relatively low commercial returns.
 
-| KPI | Business Purpose |
-|------|------------------|
-| Total Sales | Monitor overall business revenue |
-| Total Profit | Evaluate overall profitability |
-| Profit Margin | Measure business efficiency |
-| Total Orders | Track sales activity |
-| Average Discount | Monitor pricing strategy |
-| Average Order Value | Measure customer purchasing behaviour |
-| Below Target Orders | Identify low-margin transactions |
-| Below Target Sales | Quantify revenue below target margin |
+**Recommendation**
 
-All KPI indicators dynamically respond to Region and Year filters, allowing management to evaluate business performance from different perspectives.
+- Prioritise inventory planning for high-performing categories.
+- Review pricing and promotional strategies for underperforming categories.
+- Consider rationalising low-contributing product categories.
 
 ---
 
-# Commercial Analysis
+## 3. Discount Effectiveness
 
-## Sales & Profit Trend Analysis
+Medium discount levels generated the strongest commercial performance, while high discount levels did not produce proportional profit growth.
 
-Monthly sales and profit trends provide visibility into seasonal demand patterns and profitability changes over time.
+This suggests that increasing discounts does not necessarily improve profitability.
 
-Business value:
+**Recommendation**
 
-- Identify seasonal fluctuations
-- Compare monthly business performance
-- Monitor revenue growth trends
-- Detect abnormal profit movements
-
----
-
-## Category Performance Analysis
-
-Sales and profit are analysed across product categories to understand product contribution.
-
-Business value:
-
-- Identify high-performing categories
-- Compare category profitability
-- Support category management decisions
-- Optimise product portfolio allocation
+- Focus promotional activities around moderate discount levels.
+- Avoid excessive discounting that erodes profit margins.
+- Evaluate promotional ROI before future campaigns.
 
 ---
 
-## Regional Performance Analysis
+## 4. Margin Performance
 
-Regional comparison enables management to evaluate geographical business performance.
+More than half of all transactions fell below the target profit margin.
 
-Business value:
+This indicates that margin management remains a significant commercial risk.
 
-- Compare regional revenue contribution
-- Evaluate regional profitability
-- Identify high-performing markets
-- Support regional resource allocation
+**Recommendation**
 
----
-
-## Discount Effectiveness Analysis
-
-The dashboard evaluates commercial performance under different discount levels.
-
-Business value:
-
-- Measure the impact of discount strategies
-- Compare profitability across discount bands
-- Balance revenue growth against profit protection
-- Support future pricing decisions
+- Review pricing policies for low-margin products.
+- Improve discount approval processes.
+- Identify products consistently failing to achieve target margins.
 
 ---
 
-## Pareto Analysis
+## 5. Pareto Analysis
 
-Pareto Analysis applies the 80/20 principle to identify products generating the majority of sales.
+Pareto Analysis showed that a relatively small number of sub-categories contributed the majority of total sales.
 
-Business value:
+This confirms the classic 80/20 business principle.
 
-- Identify key revenue-driving products
-- Prioritise inventory management
-- Improve merchandising decisions
-- Support category optimisation
+**Recommendation**
 
----
-
-## Margin Performance Analysis
-
-Transactions are classified according to profit margin performance.
-
-Business value:
-
-- Monitor margin quality
-- Identify below-target transactions
-- Quantify commercial risk
-- Support pricing and promotion reviews
+- Prioritise inventory availability for key products.
+- Increase promotional focus on high-contributing items.
+- Reduce operational effort on products with minimal revenue contribution.
 
 ---
 
-# Interactive Features
+## 6. Executive KPI Monitoring
 
-The dashboard supports interactive business exploration through:
+Interactive KPI cards allow management to monitor business performance in real time across different regions and years.
 
-- Region slicer
-- Year slicer
-- Dynamic KPI cards
-- Linked PivotTables and PivotCharts
-- Automatic KPI recalculation
-- Conditional formatting for exception monitoring
+The combination of dynamic KPIs and slicers enables faster commercial decision-making compared with traditional static reports.
 
-All visualisations update simultaneously when filters are applied, providing a responsive executive reporting experience.
+**Business Value**
 
----
+The dashboard transforms raw transactional data into actionable business insights by helping management:
 
-# Technical Implementation
-
-## Data Preparation
-
-The raw retail transaction dataset was transformed using Power Query.
-
-Data preparation included:
-
-- Data validation
-- Data type conversion
-- Date transformation
-- Business rule calculations
-- Profit margin calculation
-- Discount band classification
-- Margin performance classification
-
----
-
-## Dashboard Development
-
-The dashboard was developed using native Microsoft Excel functionality without VBA.
-
-Core technologies include:
-
-- Power Query
-- Pivot Tables
-- Pivot Charts
-- Slicers
-- GETPIVOTDATA
-- SUMIFS
-- COUNTIF
-- Conditional Formatting
-- Custom Number Formatting
-
----
-
-# Business Value
-
-Compared with traditional static reports, the dashboard enables decision-makers to:
-
-- Monitor business performance in real time
-- Quickly identify commercial risks
-- Analyse profitability across multiple dimensions
+- Monitor profitability
+- Identify commercial risks
 - Evaluate pricing effectiveness
-- Support data-driven commercial decision-making
-
-The dashboard demonstrates how Microsoft Excel can be used to build an executive reporting solution suitable for business intelligence and commercial analytics scenarios.
-
----
-
-# Dataset
-
-This project uses the publicly available **Supermart Grocery Sales – Retail Analytics Dataset** from Kaggle.
-
-Dataset:
-
-https://www.kaggle.com/datasets/mohamedharris/supermart-grocery-sales-retail-analytics-dataset
-
----
-
-# Skills Demonstrated
-
-Business Intelligence
-
-- Executive Dashboard Design
-- KPI Development
-- Commercial Analytics
-- Interactive Business Reporting
-
-Microsoft Excel
-
-- Power Query
-- Pivot Tables
-- Pivot Charts
-- Dynamic Slicers
-- Conditional Formatting
-- Advanced Excel Functions
-
-Business Analysis
-
-- Sales Performance Analysis
-- Profitability Analysis
-- Category Analysis
-- Regional Analysis
-- Discount Analysis
-- Pareto Analysis
-
----
-
-# Author
-
-Yang Li
-
-Master of Information Technology
-
-University of Auckland
+- Compare regional performance
+- Support data-driven decision making
