@@ -1,12 +1,15 @@
-# Retail Commercial Performance Dashboard (Excel)
+# Retail Commercial Performance Dashboard
+Microsoft Excel | Power Query | Commercial Analytics | Interactive Dashboard
 
 ## Executive Summary
 
-This project presents an interactive commercial performance dashboard developed in Microsoft Excel to support executive reporting and business decision-making in a retail environment.
+Retail businesses generate large volumes of transactional data every day, making it difficult for managers to monitor sales performance, profitability and pricing effectiveness using traditional spreadsheet reports.
+
+This project addresses that challenge by developing an interactive executive dashboard that consolidates key commercial metrics into a single reporting interface. This project presents an interactive commercial performance dashboard developed in Microsoft Excel to support data-driven commercial decision-making in a retail environment.
 
 The dashboard consolidates sales, profitability, regional performance, discount effectiveness and margin monitoring into a single reporting interface. By combining dynamic KPI cards, PivotTables, PivotCharts, Power Query and interactive slicers, the solution enables management to quickly monitor business performance and identify commercial improvement opportunities.
 
-The project simulates the type of executive reporting commonly used by Commercial Analysts, Business Intelligence Analysts and Category Managers within retail organisations.
+The dashboard demonstrates how Microsoft Excel can be used to deliver an executive reporting solution comparable to entry-level Business Intelligence applications.
 
 ---
 
@@ -26,7 +29,7 @@ The dashboard was designed to answer the following business questions:
 
 # Executive Dashboard
 
-The dashboard provides an executive overview through eight dynamic KPI indicators.
+All KPI indicators are dynamically linked to PivotTables through GETPIVOTDATA and respond instantly to Region and Year slicer selections. The dashboard provides an executive overview through eight dynamic KPI indicators.
 
 | KPI | Business Purpose |
 |------|------------------|
@@ -125,63 +128,95 @@ Business Value
 
 # Key Business Findings
 
-### Finding 1 — Regional Performance Difference
+## Finding 1 — Regional Performance Difference
 
-The West region achieved the strongest commercial performance, generating approximately **$4.22M** in sales and **$1.08M** in profit while maintaining a profit margin of **25.58%**.
+### Evidence
+
+The West region achieved the strongest commercial performance, generating approximately **$4.22M** in sales and **$1.08M** in profit while maintaining a **25.58%** profit margin.
 
 By comparison, the South region generated approximately **$2.40M** in sales with a lower profit margin of **24.76%**.
 
-**Recommendation**
+### Business Impact
 
-Investigate pricing strategies, product mix and promotional activities implemented in the West region and evaluate whether similar approaches can be replicated in lower-performing regions.
+The significant difference in sales and profitability suggests that commercial performance is influenced by regional market conditions, pricing strategies and product mix. Replicating successful business practices from high-performing regions could improve overall company performance.
 
----
+### Recommendation
 
-### Finding 2 — Discount Strategy
-
-The dashboard shows that **Medium Discount** generated both the highest sales and the highest profit among all discount bands.
-
-This indicates that moderate discounting achieved a better balance between revenue generation and profitability than aggressive discount strategies.
-
-**Recommendation**
-
-Prioritise moderate promotional campaigns and regularly evaluate the return on investment of high-discount activities.
+Investigate the pricing strategy, promotional activities and product assortment implemented in the West region, and evaluate whether similar commercial approaches can be adopted in lower-performing regions to improve profitability and revenue growth.
 
 ---
 
-### Finding 3 — Margin Risk
+## Finding 2 — Discount Strategy Effectiveness
+
+### Evidence
+
+The dashboard shows that the **Medium Discount** band generated both the highest sales and the highest profit among all discount levels.
+
+Higher discount levels did not deliver proportional improvements in profitability.
+
+### Business Impact
+
+The results indicate that moderate discounting provides the best balance between revenue generation and profit protection. Increasing discount depth beyond this level may stimulate sales volume but reduces overall commercial returns.
+
+### Recommendation
+
+Prioritise moderate promotional campaigns and regularly evaluate the return on investment (ROI) of discount activities before implementing aggressive pricing strategies. Future promotions should focus on maintaining profitability rather than maximising sales volume alone.
+
+---
+
+## Finding 3 — Margin Risk
+
+### Evidence
 
 The dashboard identified **5,062 out of 9,994 orders (50.65%)** as falling below the target profit margin.
 
 These transactions generated approximately **$7.57M** in sales.
 
-**Recommendation**
+### Business Impact
 
-Review pricing policies for products consistently generating low margins and strengthen discount approval controls to improve overall profitability.
+Although overall sales performance remains strong, more than half of all transactions failed to achieve the expected profit margin. This indicates that pricing and discount decisions are limiting overall profitability and increasing commercial risk.
 
----
+### Recommendation
 
-### Finding 4 — Product Concentration
-
-Pareto Analysis indicates that a relatively small number of product sub-categories contribute the majority of overall sales.
-
-This concentration suggests that business performance depends heavily on a limited number of high-performing products.
-
-**Recommendation**
-
-Prioritise inventory availability, promotional investment and supply planning for high-contributing products while reviewing the commercial value of lower-performing items.
+Review pricing policies for products consistently generating low margins, strengthen discount approval processes and monitor below-target transactions more closely to improve transaction-level profitability.
 
 ---
 
-### Finding 5 — Profit Margin Stability Across Regions
+## Finding 4 — Revenue Concentration in Key Product Categories
 
-Despite noticeable differences in regional sales performance, profit margins remained relatively stable across regions. For example, the West region achieved a profit margin of **25.58%**, while the South region recorded **24.76%**, both remaining close to the overall business average of **25.05%**.
+### Evidence
 
-This indicates that the current pricing framework is generally consistent across regions. However, the high proportion of below-target transactions suggests that profitability challenges are more likely driven by product-level pricing and discount decisions rather than regional performance alone.
+Pareto Analysis demonstrates that a relatively small number of product sub-categories contribute the majority of overall sales, while many remaining products contribute only a small proportion of total revenue.
 
-**Recommendation**
+### Business Impact
 
-Maintain the existing regional pricing strategy while prioritising the review of low-margin products and discount policies. Improving transaction-level margin performance is likely to deliver greater profitability gains than implementing broad regional pricing changes.
+Business performance is highly dependent on a limited number of high-contributing products. Stock shortages, pricing issues or supply disruptions affecting these key products could have a disproportionate impact on total revenue and profitability.
+
+### Recommendation
+
+Prioritise inventory availability, supplier collaboration and promotional investment for high-contributing product categories. At the same time, review low-performing products to determine whether pricing, merchandising or product rationalisation could improve overall category performance and operational efficiency.
+
+---
+
+## Finding 5 — Profit Margin Stability Across Regions
+
+### Evidence
+
+Despite noticeable differences in regional sales performance, profit margins remained relatively consistent across regions.
+
+For example:
+
+- **West:** 25.58%
+- **South:** 24.76%
+- **Overall Business:** 25.05%
+
+### Business Impact
+
+The relatively stable regional margins suggest that the overall pricing framework is generally effective across geographical markets. However, the large proportion of below-target transactions indicates that profitability challenges are more likely driven by product-level pricing and discount decisions rather than regional pricing differences.
+
+### Recommendation
+
+Maintain the current regional pricing strategy while prioritising the optimisation of product pricing, discount policies and low-margin transactions. Improving product-level margin performance is likely to deliver greater profitability gains than implementing broad regional pricing changes.
 
 ---
 
@@ -332,8 +367,5 @@ Special thanks to the dataset author for making the dataset publicly available t
 # Author
 
 **Yang Li**
-
-Master of Information Technology  
-University of Auckland
 
 Business Intelligence | Data Analytics | Commercial Analytics
