@@ -173,16 +173,15 @@ Prioritise inventory availability, promotional investment and supply planning fo
 
 ---
 
-### Finding 5 — Executive Reporting
+### Finding 5 — Profit Margin Stability Across Regions
 
-Interactive slicers allow management to analyse business performance dynamically across different regions and years.
+Despite noticeable differences in regional sales performance, profit margins remained relatively stable across regions. For example, the West region achieved a profit margin of **25.58%**, while the South region recorded **24.76%**, both remaining close to the overall business average of **25.05%**.
 
-Instead of producing multiple static reports, management can perform instant comparisons through a single dashboard.
+This indicates that the current pricing framework is generally consistent across regions. However, the high proportion of below-target transactions suggests that profitability challenges are more likely driven by product-level pricing and discount decisions rather than regional performance alone.
 
 **Recommendation**
 
-Adopt interactive reporting as a standard management reporting approach to improve decision-making efficiency.
-
+Maintain the existing regional pricing strategy while prioritising the review of low-margin products and discount policies. Improving transaction-level margin performance is likely to deliver greater profitability gains than implementing broad regional pricing changes.
 ---
 
 # Technical Implementation
