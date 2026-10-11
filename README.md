@@ -1,4 +1,6 @@
 # Retail Commercial Performance Dashboard
+
+[![CI](https://github.com/liyang6620/retail-commercial-performance-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/liyang6620/retail-commercial-performance-dashboard/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 Microsoft Excel | Power Query | Commercial Analytics | Interactive Dashboard
 
 ## Executive Summary
