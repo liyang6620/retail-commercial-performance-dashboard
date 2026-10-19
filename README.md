@@ -345,7 +345,6 @@ excel-retail-commercial-dashboard
 
 Potential future improvements include:
 
-- Power BI implementation
 - SQL database integration
 - Automated data refresh
 - Sales forecasting
